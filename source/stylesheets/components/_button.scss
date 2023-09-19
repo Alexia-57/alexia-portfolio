@@ -1,10 +1,12 @@
 .button-social {
   padding: 0 16px;
   position: relative;
-  font-size: 20px;
+  font-size: 28px;
+  color: #70AF85;
 
   &:hover {
     opacity: 0.7;
+    color: #a4cfb2;
   }
 }
 
@@ -14,4 +16,72 @@
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+
+.flag-icon {
+  font-size: 26px;
+  border: solid 1px rgb(218, 216, 216);
+}
+
+.icon-list {
+  list-style-type: none;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .icon-list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin: 20px;
+
+      i {
+        font-size: 40px;
+      }
+
+      p {
+        margin: 20px;
+      }
+    }
+  }
+}
+
+.tech-stacks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .icon-list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin: 20px;
+
+      i {
+        font-size: 44px;
+      }
+    }
+  }
 }

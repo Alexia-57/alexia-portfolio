@@ -1,19 +1,23 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: JoyJot
+  description: A mobile-friendly app which is a diary where users can input their daily joys, get related recommendations and mini-games, all in the purpose to stay positive!
+  image: projects/joyjot2.jpeg
+  tech: Ruby on Rails, HTML/SCSS, JavaScript (stimulus)
+  url: https://www.joyjot.online/
 
-- name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: WalkyWoofs
+  description: An application to match dog owners and dog walkers services
+  image: projects/walkywoofs.jpg
+  tech: Ruby on Rails, HTML/SCSS, JavaScript (stimulus)
+  url: https://walkywoofs-46ff9b9f9b88.herokuapp.com/
 
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: Snake Game
+  description: A simple snake game, eat the apple and get bigger, hit the wall and you fail!
+  image: projects/snakegame.jpeg
+  tech: JavaScript
+  url: https://github.com/Alexia-57/snake-game
 
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: Stupid coaching
+  description: There is only one sentence that this coach allowd you to say...
+  image: projects/stupidcoaching.jpeg
+  tech: Ruby on Rails, HTML/SCSS
+  url: https://github.com/Alexia-57/rails-stupid-coaching

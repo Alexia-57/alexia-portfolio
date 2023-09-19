@@ -1,10 +1,14 @@
 .avatar {
-  width: 40px;
+  width: 230px;
   border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  margin: 25px;
 }
 .avatar-large {
   width: 56px;
   border-radius: 50%;
+  width: 300px;
 }
 .avatar-bordered {
   width: 40px;
