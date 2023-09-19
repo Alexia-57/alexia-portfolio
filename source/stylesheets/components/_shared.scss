@@ -1,5 +1,12 @@
 .container {
-  width: 90%;
+  width: 70%;
+}
+
+.container-overall {
+  background-image: url('../assets/images/back.jpg'); /* Replace 'path/to/your-image.jpg' with the actual path to your image */
+  background-size: cover; /* Adjust as needed to control image sizing */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-position: center center; /* Center the image horizontally and vertically */
 }
 
 body {
@@ -13,14 +20,23 @@ body {
   text-align: center;
 }
 
-h1 {
-  color: #e46ea5;
-  font-weight: bold;
-  font-family: 'Parisienne', cursive;
-  letter-spacing: 1px;
-  font-size: 45px;
-  text-align: center;
-}
+// .subtitle {
+//   color: #e46ea5;
+//   font-weight: bold;
+//   font-family: 'Parisienne', cursive;
+//   letter-spacing: 1px;
+//   font-size: 45px;
+//   text-align: center;
+// }
+
+// h1 {
+//   color: #e46ea5;
+//   font-weight: bold;
+//   font-family: 'Parisienne', cursive;
+//   letter-spacing: 1px;
+//   font-size: 45px;
+//   text-align: center;
+// }
 
 h2 {
   color: #e46ea5;
