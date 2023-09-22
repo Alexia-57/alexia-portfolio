@@ -24,21 +24,23 @@
 .card-product {
   overflow: hidden;
   color: #575F7D;
-  height: 170px;
-  background: white;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  height: 190px;
+  background: #f5f3f4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
 
   &:hover {
-    opacity: 0.7;
+    opacity: 0.8;
     transition: opacity 0.3s ease;
+    background: #F0E7EC;
+    color: inherit;
   }
 }
 
 .card-product img {
   height: 100%;
-  width: 160px;
+  width: 180px;
   object-fit: cover;
 }
 
@@ -53,6 +55,14 @@
   line-height: 1.4;
   margin-bottom: 0;
   margin-top: 8px;
+}
+
+.card-product .fas.fa-external-link-alt {
+  display: none;
+}
+
+.card-product:hover .fas.fa-external-link-alt {
+  display: inline-block;
 }
 
 .tech {
