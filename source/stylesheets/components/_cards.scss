@@ -5,30 +5,24 @@
 }
 
 .card-block {
-  overflow: hidden;
-  height: 70%;
-  width: 100%;
   background: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  display: flex; /* Use Flexbox */
-  flex-direction: column; /* Stack children vertically */
-  align-items: center;
   padding: 40px;
-}
-
-.card-block ul {
-  display: inline-block;
-  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .card-product {
+  position: relative;
   overflow: hidden;
   color: #575F7D;
-  height: 190px;
   background: #f5f3f4;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
+  width: 100%;
 
   &:hover {
     opacity: 0.8;
@@ -40,60 +34,50 @@
 
 .card-product img {
   height: 100%;
-  width: 180px;
+  width: 45%;
   object-fit: cover;
 }
 
-.card-product h2 {
-  font-size: 16px;
+.card-product-infos {
+  flex-grow: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-product h4 {
+  font-size: 18px;
   font-weight: bold;
-  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .card-product p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.card-product .tech {
   font-size: 12px;
   line-height: 1.4;
-  margin-bottom: 0;
+  opacity: 0.7;
+  font-style: italic;
   margin-top: 8px;
+  margin-bottom: 8px;
+  border-top: 0.5px solid #898fa8;
+  padding-top: 8px;
 }
 
 .card-product .fas.fa-external-link-alt {
-  display: none;
+  position: absolute; /* Position the icon absolutely */
+  top: 8px; /* Adjust the top distance as needed */
+  right: 8px;
 }
 
-.card-product:hover .fas.fa-external-link-alt {
-  display: inline-block;
-}
 
-.tech {
-  font-size: 12px;
-  line-height: 1.4;
-  opacity: .7;
-  margin-bottom: 0;
-  margin-top: 8px;
-  font-style: italic;
-  opacity: .7;
-}
-
-.card-product .card-product-infos {
-  padding: 16px;
-  &:hover {
-    .external-link {
-      opacity: 1;
-    }
-  }
-}
-
-.external-link {
-  margin-left: 8px;
-  opacity: 0;
-  color: $gray;
-  transition: opacity 1s;
-  &:hover {
-    cursor: pointer;
-    color: $gray
-  }
-}
+// Your media queries for responsiveness...
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {

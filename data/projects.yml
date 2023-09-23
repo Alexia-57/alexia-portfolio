@@ -17,7 +17,7 @@
   url: https://github.com/Alexia-57/snake-game
 
 - name: Stupid coaching
-  description: There is only one sentence that this coach allowd you to say...
+  description: There is only one sentence that this coach allows you to say...
   image: projects/stupidcoaching.jpeg
   tech: Ruby on Rails, HTML/SCSS
   url: https://github.com/Alexia-57/rails-stupid-coaching
