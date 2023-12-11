@@ -1,3 +1,9 @@
+- name: Vinoteca
+  description: A mobile-friendly app to manage your wine cellar
+  image: projects/vinoteca.jpeg
+  tech: Ruby on Rails, HTML/SCSS, JavaScript
+  url: https://vinoteca-4nau.onrender.com/
+
 - name: JoyJot
   description: A mobile-friendly app which is a diary where users can input their daily joys, get related recommendations and mini-games, all in the purpose to stay positive!
   image: projects/joyjot2.jpeg
